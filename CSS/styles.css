@@ -14,24 +14,48 @@
 
 }
 
-/* Body */
-ul {
-    list-style-type: none;
-}
 
+
+
+
+
+
+
+
+
+/* Body */
 .body {
     color: var(--color-primary-darkblue);
     font-family: Play, sans-serif;
     font-weight: 700;
     line-height: normal;
 
-    
-}
-.accent {
-    color: var(--color-primary-blue);
-
 }
 
+ul {
+    list-style-type: none;
+
+}
+.nav1 {
+    color:var(--color-primary-blue);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav2 {
+    color: var(--color-primary-darkblue);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* main-section */
 .hero-title {
     color: var(--color-primary-blue);
     font-size: 140px;
@@ -39,4 +63,159 @@ ul {
     line-height: 114px;
     text-transform: capitalize;
     font-family: Play, sans-serif;
+}
+
+.name1 {
+color: var(--color-primary-darkblue);
+font-family: Roboto, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.info1 {
+    color: var(--color-secondary-grey1);
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+/* section-style */
+/* section 1 */
+.size1 {
+    color: var(--color-primary-darkblue);
+    font-size: 64px;
+    font-weight: 700;
+}
+.size {
+    color: var(--color-primary-blue);
+    text-transform: capitalize;
+}
+.p1 {
+    font-family: Roboto, sans-serif;
+    color: var(--color-primary-darkblue);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.p {
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+
+/* button */
+.button {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-blue);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 32px;
+}
+
+
+/* section2 */
+.color1 {
+    color: var(--color-primary-blue);
+    font-family: Play;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.color2 {
+    
+    color: var(--color-primary-darkblue);
+    text-align: center;
+
+}
+.format-text {
+    color: var(--color-primary-dark);
+    
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* section 3 */
+.color3 {
+    color: var(--color-primary-blue);
+    font-family: Play;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.color4 {
+    color: var(--color-primary-darkblue);
+    font-family: Play;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.foto-text {
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+}
+/* Contact-section  */
+/* address */
+.color5 { 
+    color: var(--color-primary-blue);
+    font-family: Play;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.color6 {
+    color: var(--color-primary-darkblue);
+    font-family: Play;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+}
+
+.fon-style {
+    background-color: var(--color-primary-darkblue);
+    color: var(--color-primary-white);
+}
+.text-style {
+    color: var(--color-primary-white);
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.address-link {
+    color: var(--color-primary-white);
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.address-copyright {
+    color: var(--color-secondary-grey2);
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
